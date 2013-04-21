@@ -22,5 +22,5 @@ Library
 
     build-depends:   base >= 4.2.0.0 && < 4.9, 
                      containers,
-                     Thrift == 0.6.*,
+                     Thrift >= 0.6 && < 0.7,
                      bytestring
